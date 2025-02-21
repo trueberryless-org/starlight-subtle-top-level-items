@@ -54,3 +54,7 @@ All commands are run from the root of the project, from a terminal:
 Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
 
 ## License
+
+Licensed under the MIT license, Copyright © trueberryless.
+
+See [LICENSE](/LICENSE) for more information.
