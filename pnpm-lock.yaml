@@ -6,7 +6,7 @@ settings:
 
 importers:
 
-  .:
+  starlight:
     dependencies:
       '@astrojs/starlight':
         specifier: ^0.32.1
