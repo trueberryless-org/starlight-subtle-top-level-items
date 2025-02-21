@@ -17,5 +17,5 @@ spec:
     spec:
       containers:
         - name: starlight-subtle-top-level-items
-          image: "trueberryless/starlight-subtle-top-level-items"
+          image: "trueberryless/starlight-subtle-top-level-items:0.1.0"
           imagePullPolicy: Always
