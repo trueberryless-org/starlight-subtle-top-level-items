@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: starlight-subtle-top-level-items
+  namespace: starlight-subtle-top-level-items
+  annotations:
+    cert-manager.io/issuer: acme-issuer
+spec:
+  selector:
+    app: starlight-subtle-top-level-items
+  ports:
+    - name: http
+      port: 80
