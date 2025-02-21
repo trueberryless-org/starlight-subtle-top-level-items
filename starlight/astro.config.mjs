@@ -8,7 +8,8 @@ export default defineConfig({
     starlight({
       title: "Subtle Top-Level Items",
       social: {
-        github: "https://github.com/trueberryless-org/starlight-subtle-top-level-items",
+        github:
+          "https://github.com/trueberryless-org/starlight-subtle-top-level-items",
       },
       sidebar: [
         {
