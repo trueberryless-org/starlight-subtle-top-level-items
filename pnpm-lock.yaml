@@ -26,6 +26,12 @@ importers:
       sharp:
         specifier: ^0.32.5
         version: 0.32.6
+      starlight-sidebar-topics:
+        specifier: ^0.4.1
+        version: 0.4.1(@astrojs/starlight@0.32.1(astro@5.3.0(rollup@4.34.8)(typescript@5.7.3)))
+      starlight-sidebar-topics-dropdown:
+        specifier: ^0.4.1
+        version: 0.4.1(@astrojs/starlight@0.32.1(astro@5.3.0(rollup@4.34.8)(typescript@5.7.3)))
 
 packages:
 
@@ -1897,6 +1903,18 @@ packages:
 
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
+
+  starlight-sidebar-topics-dropdown@0.4.1:
+    resolution: {integrity: sha512-T5hv24mP6/lWZR4IU4ppLYY0V1iWsff9TiHJov3eVSV2TmXPUweKyK0QXRGdTGl9XHNbpwDhlor1MjhwgjVOFw==}
+    engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.30'
+
+  starlight-sidebar-topics@0.4.1:
+    resolution: {integrity: sha512-fzYVgccxUDBjdxgGXPDQzNI/GghEMhcdaxlDkkOFXzKvZQVX71/LAB/ZffGAB+EKkS3n9bF5YggYYBMuO6wKAw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.32.0'
 
   stream-replace-string@2.0.0:
     resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
@@ -4771,6 +4789,14 @@ snapshots:
       signal-exit: 4.1.0
 
   sprintf-js@1.0.3: {}
+
+  starlight-sidebar-topics-dropdown@0.4.1(@astrojs/starlight@0.32.1(astro@5.3.0(rollup@4.34.8)(typescript@5.7.3))):
+    dependencies:
+      '@astrojs/starlight': 0.32.1(astro@5.3.0(rollup@4.34.8)(typescript@5.7.3))
+
+  starlight-sidebar-topics@0.4.1(@astrojs/starlight@0.32.1(astro@5.3.0(rollup@4.34.8)(typescript@5.7.3))):
+    dependencies:
+      '@astrojs/starlight': 0.32.1(astro@5.3.0(rollup@4.34.8)(typescript@5.7.3))
 
   stream-replace-string@2.0.0: {}
 

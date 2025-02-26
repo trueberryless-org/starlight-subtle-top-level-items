@@ -1,36 +1,43 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash
+title: Sidebar Styling Experiment
+description: Experimenting with different styles for the sidebar items.
+topic: 56d1ace
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Experimenting with different styles for the sidebar items.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /lorem-folder-1/lorem-ipsum-2
+    - text: View styling
+      link: /56d1ace/styles
       icon: right-arrow
     - text: Read the Starlight docs
       link: https://starlight.astro.build
       icon: external
       variant: minimal
+head:
+  - tag: style
+    content: |
+      .sl-container {
+        --sl-content-width: 80%;
+      }
+tableOfContents: false
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
 
-## Next steps
+## How to use this site
 
 <CardGrid stagger>
-  <Card title="Update content" icon="pencil">
-    Edit `src/content/docs/index.mdx` to see this page change.
+  <Card title="Above sidebar" icon="information">
+    Above the sidebar you can see different **hashes**. Click on them to see different styles applied to the sidebar items.
   </Card>
-  <Card title="Add new content" icon="add-document">
-    Add Markdown or MDX files to `src/content/docs` to create new pages.
+  <Card title="View styling" icon="open-book">
+    When you click on one of the "topics", you will see the styling applied to the sidebar items by default, switch between some demonstration pages to get a better idea.
   </Card>
-  <Card title="Configure your site" icon="setting">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
+  <Card title="Suggest new style" icon="pencil">
+    If you have an idea for a new style, you currently don't see as an option (topic), write a description of it (or even better the styles to apply) in [this discussion](https://github.com/withastro/starlight/discussions/2908), so I can add it soon.
   </Card>
-  <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
+  <Card title="Why hashes?" icon="star">
+    The IDs for the topics are the stylings hashed with SHA-256, so it is easy to reference them in [the discussion](https://github.com/withastro/starlight/discussions/2908).
   </Card>
 </CardGrid>
