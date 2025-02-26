@@ -1,5 +1,11 @@
 # starlight-subtle-top-level-items
 
+## 0.2.1
+
+### Patch Changes
+
+- [`e161e1e`](https://github.com/trueberryless-org/starlight-subtle-top-level-items/commit/e161e1e0710db9ced8a4d1721a1564de2e8d6c8c) Thanks [@trueberryless](https://github.com/trueberryless)! - Add highlight to fd53616
+
 ## 0.2.0
 
 ### Minor Changes
