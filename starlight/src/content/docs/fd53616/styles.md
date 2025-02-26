@@ -4,7 +4,7 @@ title: Styles
 
 This version applies the following styling to the sidebar items:
 
-```css
+```css {8}
 sl-sidebar-state-persist ul.top-level > li:not(:has(details)) {
 	margin-top: 0rem !important;
 }
