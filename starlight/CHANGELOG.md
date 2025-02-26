@@ -1,5 +1,11 @@
 # starlight-subtle-top-level-items
 
+## 0.2.0
+
+### Minor Changes
+
+- [`b31060b`](https://github.com/trueberryless-org/starlight-subtle-top-level-items/commit/b31060b90ab6b6568e9f10e3032c9e93ef1db827) Thanks [@trueberryless](https://github.com/trueberryless)! - Include topics plugin, create different stylings, add middleware to apply right styling per topic
+
 ## 0.1.0
 
 ### Minor Changes
