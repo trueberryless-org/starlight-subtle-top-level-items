@@ -1,6 +1,7 @@
 # Starlight Starter Kit: Basics
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5589be3d-3bec-41a6-a8c5-b9bfb73ed0d8/deploy-status)](https://app.netlify.com/sites/starlight-subtle-top-level-items/deploys)
 
 ```
 npm create astro@latest -- --template starlight
