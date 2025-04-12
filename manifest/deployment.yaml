@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: starlight-subtle-top-level-items
+  namespace: starlight-subtle-top-level-items
+  labels:
+    app: starlight-subtle-top-level-items
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: starlight-subtle-top-level-items
+  template:
+    metadata:
+      labels:
+        app: starlight-subtle-top-level-items
+    spec:
+      containers:
+        - name: starlight-subtle-top-level-items
+          image: "trueberryless/starlight-subtle-top-level-items"
+          imagePullPolicy: Always
