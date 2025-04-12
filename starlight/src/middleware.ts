@@ -1,4 +1,5 @@
 import { defineRouteMiddleware } from "@astrojs/starlight/route-data";
+
 import { sidebarStylesPerTopic } from "./styles";
 
 export const onRequest = defineRouteMiddleware((context, next) => {
