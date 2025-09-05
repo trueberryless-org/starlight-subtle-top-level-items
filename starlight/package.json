@@ -16,5 +16,5 @@
     "starlight-sidebar-topics": "^0.4.1",
     "starlight-sidebar-topics-dropdown": "^0.4.1"
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "pnpm@10.10.0"
 }
