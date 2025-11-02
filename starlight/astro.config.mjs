@@ -8,10 +8,13 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Subtle Top-Level Items",
-      social: {
-        github:
-          "https://github.com/trueberryless-org/starlight-subtle-top-level-items",
-      },
+      social: [
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/trueberryless-org/starlight-subtle-top-level-items",
+        },
+      ],
       plugins: [
         starlightSidebarTopics([
           {
