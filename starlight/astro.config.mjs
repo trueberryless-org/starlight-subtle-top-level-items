@@ -98,7 +98,7 @@ export default defineConfig({
           },
         ]),
       ],
-      routeMiddleware: "./src/middleware.ts",
+      routeMiddleware: "./src/routeData.ts",
     }),
   ],
 });
