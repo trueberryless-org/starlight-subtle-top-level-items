@@ -58,4 +58,4 @@ Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro 
 
 Licensed under the MIT license, Copyright © trueberryless.
 
-See [LICENSE](/LICENSE) for more information.
+See [LICENSE](https://github.com/trueberryless-org/starlight-subtle-top-level-items/blob/main/LICENSE) for more information.
