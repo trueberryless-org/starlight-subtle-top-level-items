@@ -1,7 +1,7 @@
 {
   "name": "starlight-subtle-top-level-items",
   "version": "0.0.1",
-  "homepage": "https://starlight-subtle-top-level-items.trueberryless.org",
+  "homepage": "https://starlight-subtle-top-level-items.netlify.app/",
   "bugs": {
     "url": "https://github.com/trueberryless-org/starlight-subtle-top-level-items/issues"
   },
@@ -10,7 +10,7 @@
     "url": "https://github.com/trueberryless-org/starlight-subtle-top-level-items.git"
   },
   "license": "MIT",
-  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "type": "module",
   "scripts": {
     "astro": "astro",
