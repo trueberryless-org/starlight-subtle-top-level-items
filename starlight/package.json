@@ -20,9 +20,9 @@
     "start": "astro dev"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.41.1",
+    "@astrojs/starlight": "^0.41.2",
     "astro": "5.15.3",
-    "sharp": "^0.35.2",
+    "sharp": "^0.35.3",
     "starlight-sidebar-topics": "^0.8.0",
     "starlight-sidebar-topics-dropdown": "^0.6.0"
   },
