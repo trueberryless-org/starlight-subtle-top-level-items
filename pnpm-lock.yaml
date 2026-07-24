@@ -27,7 +27,7 @@ importers:
   starlight:
     dependencies:
       '@astrojs/starlight':
-        specifier: ^0.41.2
+        specifier: ^0.41.3
         version: 0.41.3(@astrojs/markdown-remark@7.2.1)(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3)
       astro:
         specifier: 5.15.3
