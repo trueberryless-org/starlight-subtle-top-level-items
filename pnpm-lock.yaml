@@ -36,11 +36,11 @@ importers:
         specifier: ^0.35.3
         version: 0.35.3(@types/node@24.13.3)
       starlight-sidebar-topics:
-        specifier: ^0.8.0
-        version: 0.8.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))
+        specifier: ^0.9.0
+        version: 0.9.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))
       starlight-sidebar-topics-dropdown:
         specifier: ^0.6.0
-        version: 0.6.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(starlight-sidebar-topics@0.8.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3)))
+        version: 0.6.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(starlight-sidebar-topics@0.9.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3)))
 
 packages:
 
@@ -2207,11 +2207,12 @@ packages:
       '@astrojs/starlight': '>=0.38'
       starlight-sidebar-topics: '>=0.7'
 
-  starlight-sidebar-topics@0.8.0:
-    resolution: {integrity: sha512-hE8+w2vNL13h6cq3UJGl05milJQ3+1BSlhaV5V4a993YzYczU6uLAj6jfUDKQ2mmgkdVWp8/UNDF4Je/rQXNQw==}
+  starlight-sidebar-topics@0.9.0:
+    resolution: {integrity: sha512-xFwMAAtTVyqsO5DZ8Ldk0vN+2QoPdtjtDi8fbrzvQATIJvIvfaBLL9JzfXAjNHI9vMkj35VMWMd8tTICeO6RIA==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
-      '@astrojs/starlight': '>=0.38.0'
+      '@astrojs/starlight': '>=0.42.0'
+      astro: ^7.2.10
 
   stream-replace-string@2.0.0:
     resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
@@ -5090,15 +5091,16 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-sidebar-topics-dropdown@0.6.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(starlight-sidebar-topics@0.8.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))):
+  starlight-sidebar-topics-dropdown@0.6.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(starlight-sidebar-topics@0.9.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))):
     dependencies:
       '@astrojs/starlight': 0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3)
-      starlight-sidebar-topics: 0.8.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))
+      starlight-sidebar-topics: 0.9.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))
 
-  starlight-sidebar-topics@0.8.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3)):
+  starlight-sidebar-topics@0.9.0(@astrojs/starlight@0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3))(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3)):
     dependencies:
       '@astrojs/starlight': 0.42.3(astro@5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3))(typescript@5.9.3)
-      picomatch: 4.0.3
+      astro: 5.15.3(@types/node@24.13.3)(rollup@4.52.5)(typescript@5.9.3)
+      picomatch: 4.0.5
 
   stream-replace-string@2.0.0: {}
 
