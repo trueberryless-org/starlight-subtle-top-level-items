@@ -1,21 +1,31 @@
 {
   "name": "starlight-subtle-top-level-items",
   "private": true,
+  "homepage": "https://starlight-subtle-top-level-items.netlify.app/",
+  "bugs": {
+    "url": "https://github.com/trueberryless-org/starlight-subtle-top-level-items/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueberryless-org/starlight-subtle-top-level-items.git"
+  },
+  "license": "MIT",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "type": "module",
   "scripts": {
     "astro": "astro",
     "build": "astro build",
+    "check": "astro check",
     "dev": "astro dev",
-    "preview": "astro preview",
-    "start": "astro dev",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "knip": "knip",
     "lint": "oxlint",
+    "preview": "astro preview",
+    "start": "astro dev",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:e2e": "pnpm build && playwright test",
-    "check": "astro check"
+    "test:e2e": "pnpm build && playwright test"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.5",
@@ -37,16 +47,6 @@
     "typescript": "^6.0.3",
     "vitest": "^5.0.3"
   },
-  "homepage": "https://starlight-subtle-top-level-items.netlify.app/",
-  "bugs": {
-    "url": "https://github.com/trueberryless-org/starlight-subtle-top-level-items/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/trueberryless-org/starlight-subtle-top-level-items.git"
-  },
-  "license": "MIT",
-  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "packageManager": "pnpm@11.28.0",
   "engines": {
     "node": ">=24"
